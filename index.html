@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GUI Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Simple GUI Application</h1>
+
+        <div class="input-section">
+            <label for="text-input">Enter text:</label>
+            <input type="text" id="text-input" placeholder="Type something...">
+        </div>
+
+        <div class="dropdown-section">
+            <label for="color-select">Choose a text color:</label>
+            <select id="color-select">
+                <option value="black">Black</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+                <option value="red">Red</option>
+            </select>
+        </div>
+
+        <div class="font-section">
+            <label for="font-select">Choose a font style:</label>
+            <select id="font-select">
+                <option value="Arial">Arial</option>
+                <option value="Times New Roman">Times New Roman</option>
+                <option value="Courier New">Courier New</option>
+                <option value="Georgia">Georgia</option>
+            </select>
+        </div>
+
+        <div class="button-section">
+            <button id="display-btn">Display Text</button>
+        </div>
+
+        <div class="output-section">
+            <p id="output-text"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
